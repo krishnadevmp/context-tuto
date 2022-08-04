@@ -1,0 +1,29 @@
+:root {
+  --fontColor: black;
+  --wrapperBgColor: white;
+  --borderColor: rgba(31, 82, 182, 0.6);
+  --toDoItemBgColor: rgba(31, 82, 182, 0.2);
+  --removeButtonColor: #e50d0d;
+}
+
+.list-item {
+  margin-bottom: 0.313rem;
+  width: 100%;
+}
+
+.todo-wrapper {
+  color: var(--fontColor);
+  background-color: var(--wrapperBgColor);
+  max-width: 50%;
+  border: 1px solid var(--borderColor);
+  padding: 1rem !important;
+}
+
+.todo-item-card {
+  background-color: var(--toDoItemBgColor);
+}
+
+.remove-button {
+  color: var(--removeButtonColor) !important;
+  border: 1px solid var(--removeButtonColor) !important;
+}
